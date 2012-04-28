@@ -2,6 +2,6 @@ Just a quick and dirty read me for the Connect Four game.
 
 Use the arrow keys to move.
 
-Use the spacebar to select and drob your piece.
+Use the spacebar to select and drop your piece.
 
 Use enter during the game to enter the puase menu.
