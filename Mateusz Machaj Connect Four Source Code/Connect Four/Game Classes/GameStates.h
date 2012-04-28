@@ -1,0 +1,8 @@
+#pragma once
+
+//defining of controlling direction
+enum { LEFT=0, RIGHT=1, UP=2, DOWN=3, ACTION=4 };
+
+//defining of GameStates
+enum {MAINMENU=0, PLAY=1, SINGLEGAME=2, MULTIGAME=3, QUIT=4, PLAYERONEWIN=5, PLAYERTWOWIN=6, LOSE=7, WIN=8, CONTSINGLE=9, CONTMULTI=10, DRAW=11, MULTIDRAW=12,PAUSE=13,MULTIPAUSE=14};
+

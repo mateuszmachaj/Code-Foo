@@ -1,0 +1,53 @@
+﻿Build started 4/27/2012 11:13:39 PM.
+     1>Project "C:\Users\Darkheart\IGN Contest\Connect Four\Source Code\Connect Four\Connect Four.vcxproj" on node 2 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "C:\Users\Darkheart\IGN Contest\Connect Four\Source Code\Debug\".
+       InitializeBuildStatus:
+         Creating "Debug\Connect Four.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Framework\Audio.cpp Framework\dsutil.cpp Framework\Graphics.cpp Framework\Input.cpp "Game Classes\Game.cpp" "Game Classes\MainMenu.cpp" "Game Classes\PostGame.cpp" winMain.cpp
+         winMain.cpp
+         PostGame.cpp
+         MainMenu.cpp
+         Game.cpp
+         Input.cpp
+     1>c:\users\darkheart\ign contest\connect four\source code\connect four\framework\input.cpp(138): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\darkheart\ign contest\connect four\source code\connect four\framework\input.cpp(143): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+         Graphics.cpp
+         dsutil.cpp
+         Audio.cpp
+         Generating Code...
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\Connect Four.exe.embed.manifest.res" "Debug\Connect Four_manifest.rc" 
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Darkheart\IGN Contest\Connect Four\Source Code\Debug\Connect Four.exe" /INCREMENTAL /NOLOGO d3d9.lib d3dx9.lib dsound.lib dinput8.lib dxguid.lib dxerr.lib winmm.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Connect Four.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Darkheart\IGN Contest\Connect Four\Source Code\Debug\Connect Four.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Darkheart\IGN Contest\Connect Four\Source Code\Debug\Connect Four.lib" /MACHINE:X86 "Debug\Connect Four.exe.embed.manifest.res"
+         Debug\Audio.obj
+         Debug\dsutil.obj
+         Debug\Graphics.obj
+         Debug\Input.obj
+         Debug\Game.obj
+         Debug\MainMenu.obj
+         Debug\PostGame.obj
+         Debug\winMain.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\Connect Four.exe.embed.manifest" /manifest "Debug\Connect Four.exe.intermediate.manifest"
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\Connect Four.exe.embed.manifest.res" "Debug\Connect Four_manifest.rc" 
+       LinkEmbedManifest:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Darkheart\IGN Contest\Connect Four\Source Code\Debug\Connect Four.exe" /INCREMENTAL /NOLOGO d3d9.lib d3dx9.lib dsound.lib dinput8.lib dxguid.lib dxerr.lib winmm.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Connect Four.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Darkheart\IGN Contest\Connect Four\Source Code\Debug\Connect Four.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Darkheart\IGN Contest\Connect Four\Source Code\Debug\Connect Four.lib" /MACHINE:X86 "Debug\Connect Four.exe.embed.manifest.res"
+         Debug\Audio.obj
+         Debug\dsutil.obj
+         Debug\Graphics.obj
+         Debug\Input.obj
+         Debug\Game.obj
+         Debug\MainMenu.obj
+         Debug\PostGame.obj
+         Debug\winMain.obj
+         Connect Four.vcxproj -> C:\Users\Darkheart\IGN Contest\Connect Four\Source Code\Debug\Connect Four.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\Connect Four.unsuccessfulbuild".
+         Touching "Debug\Connect Four.lastbuildstate".
+     1>Done Building Project "C:\Users\Darkheart\IGN Contest\Connect Four\Source Code\Connect Four\Connect Four.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:10.89

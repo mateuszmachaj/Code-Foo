@@ -1,0 +1,24 @@
+﻿Build started 4/17/2012 6:25:18 PM.
+     1>Project "C:\Users\Darkheart\Documents\Visual Studio 2010\Projects\PlatePattern\PlatePattern\PlatePattern.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\PlatePattern.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       GenerateTargetFrameworkMonikerAttribute:
+       Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _UNICODE /D UNICODE /EHa /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /TP /analyze- /errorReport:prompt main.cpp /clr:nostdlib 
+         main.cpp
+         All outputs are up-to-date.
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Darkheart\Documents\Visual Studio 2010\Projects\PlatePattern\Release\PlatePattern.exe" /INCREMENTAL:NO /NOLOGO /MANIFEST /ManifestFile:"Release\PlatePattern.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Darkheart\Documents\Visual Studio 2010\Projects\PlatePattern\Release\PlatePattern.pdb" /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Release\main.obj
+         "Release\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+         PlatePattern.vcxproj -> C:\Users\Darkheart\Documents\Visual Studio 2010\Projects\PlatePattern\Release\PlatePattern.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Darkheart\Documents\Visual Studio 2010\Projects\PlatePattern\Release\PlatePattern.exe;#1" /manifest Release\PlatePattern.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\PlatePattern.unsuccessfulbuild".
+         Touching "Release\PlatePattern.lastbuildstate".
+     1>Done Building Project "C:\Users\Darkheart\Documents\Visual Studio 2010\Projects\PlatePattern\PlatePattern\PlatePattern.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.03

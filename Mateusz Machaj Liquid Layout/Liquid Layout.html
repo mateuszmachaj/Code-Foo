@@ -1,0 +1,103 @@
+<html>
+	<head>
+		<title>Simple Liquid Layout</title>
+		<style type="text/css">
+			/*
+			Copyright (c) 2010, Yahoo! Inc. All rights reserved.
+			Code licensed under the BSD License:
+			http://developer.yahoo.com/yui/license.html
+			version: 2.8.1
+			*/
+			html{color:#000;background:#FFF;}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td{margin:0;padding:0;}table{border-collapse:collapse;border-spacing:0;}fieldset,img{border:0;}address,caption,cite,code,dfn,em,strong,th,var,optgroup{font-style:inherit;font-weight:inherit;}del,ins{text-decoration:none;}li{list-style:none;}caption,th{text-align:left;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}q:before,q:after{content:'';}abbr,acronym{border:0;font-variant:normal;}sup{vertical-align:baseline;}sub{vertical-align:baseline;}legend{color:#000;}input,button,textarea,select,optgroup,option{font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit;}input,button,textarea,select{*font-size:100%;}
+			#header{
+				background: Black;
+				height: 10%;
+				overflow: auto;
+				border: 2px solid Teal;
+				font: Bolder 54px Arial;
+				text-align: center;
+				color: Teal;
+			}
+			#leftLab{
+				float: left;
+				background: Black;
+				width: 30%;
+				height: 5%;
+				overflow: auto;
+				border: 2px solid Teal;
+				font: Bold 24px Arial;
+				text-align: center;
+				color: Teal;
+			}
+			#rightLab{
+				float: right;
+				background: Black;
+				width: 30%;
+				height: 5%;
+				overflow: auto;
+				border: 2px solid Teal;
+				font: Bold 24px Arial;
+				text-align: center;
+				color: Teal;
+			}
+			#centerLab{
+				background: Black;
+				height: 5%;
+				overflow: auto;
+				border: 2px solid Teal;
+				font: Bold 24px Arial;
+				text-align: center;
+				color: Teal;
+			}
+			#leftCol{
+				float: left;
+				background: Gray;
+				width: 30%;
+				height: 75%;
+				overflow: auto;
+				border: 2px solid Black;
+			}
+			#rightCol{
+				float: right;
+				background: Gray;
+				width: 30%;
+				height: 75%;
+				overflow: auto;
+				border: 2px solid Black;
+			}
+			#centerCol{
+				background: Gray;
+				height: 75%;
+				overflow: auto;
+				border: 2px solid Black;
+			}
+			#footer{
+				clear: both;
+				background: Black;
+				height: 10%;
+				overflow: auto;
+				border: 2px solid Teal;
+				color: Teal;
+			}
+		</style>
+		
+		<script type="text/javascript">
+			var someText=["Just some space filler.","Random text.","I don't know what to write."]
+			function writeWords(words){
+			for (var i=0; i<words; i++)
+			document.write(someText[Math.floor(Math.random()*3)]+" ")
+			}
+		</script>
+		
+	</head>
+	<body>
+		<div id="header">Simple Liquid Layout</div>
+		<div id="leftLab">Column A</div>
+		<div id="rightLab">Column C</div>
+		<div id="centerLab">Column B</div>
+		<div id="leftCol"><script type="text/javascript">writeWords(15)</script></div>
+		<div id="rightCol"><script type="text/javascript">writeWords(20)</script></div>
+		<div id="centerCol"><script type="text/javascript">writeWords(40)</script></div>
+		<div id="footer"><script type="text/javascript">writeWords(20)</script></div>
+	</body>
+</html>
