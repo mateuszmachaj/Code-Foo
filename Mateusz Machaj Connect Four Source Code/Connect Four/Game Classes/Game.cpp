@@ -409,6 +409,7 @@ int Game::Update()
 					updateField(field, playerPieces, 1);
 					updateField(field, aiPieces, 2);
 					playerTurn = 2;
+					break;
 				}
 			}
 		}
@@ -442,6 +443,7 @@ int Game::Update()
 					updateField(field, playerPieces, 1);
 					updateField(field, aiPieces, 2);
 					playerTurn = 1;
+					break;
 				}
 			}
 		}
